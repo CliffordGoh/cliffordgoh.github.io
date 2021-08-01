@@ -12,12 +12,15 @@
 <body>
 
   <h1>Hello World</h1>
-  <span>Updated</span>
+  <button onclick="alertMeWhenPressed()">Click me!</button>
   <div class="green-text">This text should be green</div>
 
+  <script>
+    const alertMeWhenPressed = () => {
+      alert("I'm pressed!");
+    }
+  </script>
 
-
-  <script defer type="module" src="/index.js"></script>
 </body>
 
 </html>
